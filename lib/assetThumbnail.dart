@@ -9,7 +9,7 @@ class AssetThumbnail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // We're using a FutureBuilder since thumbData is a future
+  
     return FutureBuilder<dynamic>(
       future: asset.thumbData,
       builder: (_, snapshot) {
